@@ -17,14 +17,13 @@ Welcome to the **Restaurant Recommendation System** – a machine learning-power
 
 ## 🔗 Live Preview
 
-📲 **Try the App Here** → https://predictive-restaurant-1.onrender.com
-
+📲 **Try the App Here** → [https://predictive-restaurant-1.onrender.com](https://predictive-restaurant-1.onrender.com)
 
 ---
 
 ## 📎 GitHub Repository
 
-🔗 **View Source Code**: [https://github.com/KaushikDasarii/restaurant-recommender]
+🔗 **View Source Code**: [https://github.com/KaushikDasarii/restaurant-recommender](https://github.com/KaushikDasarii/restaurant-recommender)
 
 ---
 
@@ -32,10 +31,31 @@ Welcome to the **Restaurant Recommendation System** – a machine learning-power
 
 This app uses the following datasets:
 
-- `🧾 test_customers.csv`: Customer details like age, food choice, budget, etc.
-- `📍 test_locations.csv`: Restaurant data including name, location, cuisine, and ratings
+### 🧾 `test_customers.csv`
+Contains customer information such as:
+- Age
+- Preferred cuisine
+- Budget
+- **Location ID** (used to match restaurants nearby)
 
-These inputs are processed by a trained model to generate recommendations.
+### 📍 `test_locations.csv`
+Contains restaurant details including:
+- Restaurant name
+- Cuisine type
+- Average rating
+- **Location Number**
+
+---
+
+## 📌 How Location-Based Matching Works
+
+Each customer in the `test_customers.csv` file has a `Location ID`.  
+This ID is used to **filter restaurants from the `test_locations.csv` file** that have a matching `Location Number`.
+
+✅ This ensures that customers only receive restaurant recommendations that are relevant to **their own location**, making the system more personalized and practical.
+
+> For example:  
+> If a customer has `Location ID = 7`, then only restaurants with `Location Number = 7` will be considered for recommendation.
 
 ---
 
@@ -49,5 +69,9 @@ These inputs are processed by a trained model to generate recommendations.
 | 📁 Storage   | Local CSV files               |
 
 ---
+
+## 📂 Project Structure
+
+
 
 
