@@ -23,7 +23,7 @@ Welcome to the **Restaurant Recommendation System** – a machine learning-power
 
 ## 📎 GitHub Repository
 
-🔗 **View Source Code**: [https://github.com/KaushikDasarii/restaurant-recommender](https://github.com/KaushikDasarii/restaurant-recommender)
+🔗 **View Source Code**: [https://github.com/KaushikDasarii/Predictive_restaurant](https://github.com/KaushikDasarii/Predictive_restaurant)
 
 ---
 
