@@ -1,37 +1,53 @@
-# 🍽️ Restaurant Recommendation System
+# 🍔✨ Restaurant Recommendation System
 
-This is a beginner-friendly **Restaurant Recommendation System** built using **Streamlit**. The app takes customer preferences and location as input and recommends the top restaurants accordingly. The model is lightweight and designed to run on low-resource machines (like 2GB RAM laptops), making it perfect for learning and showcasing on GitHub or portfolios.
-
----
-
-## 🚀 Features
-
-- 📍 Location-based restaurant recommendations
-- 👤 Personalized using customer preferences
-- 📊 Real-time predictions with friendly UI
-- 📁 Supports CSV input (`test_customers.csv`, `test_locations.csv`)
-- 🎨 Professionally styled Streamlit interface
-- 🧠 Backend powered by a trained ML model
+Welcome to the **Restaurant Recommendation System** – a machine learning-powered web app built using **Streamlit**. It recommends top restaurants based on customer preferences and location data, offering a simple and interactive experience.
 
 ---
 
-## 📸 App Preview
+## 🌟 Features
 
-![app-preview](https://via.placeholder.com/800x400?text=Restaurant+Recommender+App+Preview)
-
----
-
-## 🧾 Input Files
-
-Make sure the following input files are present in the root directory:
-
-- `test_customers.csv`: Customer information
-- `test_locations.csv`: Restaurant location dataset
+- 📍 **Location-aware** recommendations
+- 👥 **Personalized** results based on customer features
+- 📂 **CSV Upload** support (`test_customers.csv`, `test_locations.csv`)
+- 🧠 **Trained ML Model** for prediction
+- 📊 **Interactive UI** built with Streamlit and Plotly
+- 💡 Designed for **ML portfolios** and real-world use cases
 
 ---
 
-## 📦 Installation
+## 🔗 Live Preview
 
+📲 **Try the App Here** → [https://your-app-url.streamlit.app](https://your-app-url.streamlit.app)  
+*(replace with your deployed link on Streamlit Cloud or AWS)*
 
+---
+
+## 📊 Input Data
+
+This app uses the following datasets:
+
+- `🧾 test_customers.csv`: Customer details like age, food choice, budget, etc.
+- `📍 test_locations.csv`: Restaurant data including name, location, cuisine, and ratings
+
+These inputs are processed by a trained model to generate recommendations.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tools Used                   |
+|--------------|------------------------------|
+| 📦 Backend   | Python, Pandas, NumPy         |
+| 🤖 ML Model  | scikit-learn / XGBoost        |
+| 🎨 Frontend  | Streamlit, Plotly             |
+| 📁 Storage   | Local CSV files               |
+
+---
+
+## ▶️ How to Run Locally
+
+1. 🔁 **Clone this repo**
+
+```bash
 git clone https://github.com/KaushikDasarii/restaurant-recommender.git
-
+cd restaurant-recommender
