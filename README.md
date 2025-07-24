@@ -18,7 +18,13 @@ Welcome to the **Restaurant Recommendation System** – a machine learning-power
 ## 🔗 Live Preview
 
 📲 **Try the App Here** → [https://your-app-url.streamlit.app](https://your-app-url.streamlit.app)  
-*(replace with your deployed link on Streamlit Cloud or AWS)*
+
+
+---
+
+## 📎 GitHub Repository
+
+🔗 **View Source Code**: [https://github.com/KaushikDasarii/restaurant-recommender]
 
 ---
 
@@ -44,10 +50,4 @@ These inputs are processed by a trained model to generate recommendations.
 
 ---
 
-## ▶️ How to Run Locally
 
-1. 🔁 **Clone this repo**
-
-```bash
-git clone https://github.com/KaushikDasarii/restaurant-recommender.git
-cd restaurant-recommender
