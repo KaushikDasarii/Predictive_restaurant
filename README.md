@@ -17,7 +17,7 @@ Welcome to the **Restaurant Recommendation System** – a machine learning-power
 
 ## 🔗 Live Preview
 
-📲 **Try the App Here** → [https://your-app-url.streamlit.app](https://your-app-url.streamlit.app)  
+📲 **Try the App Here** → https://predictive-restaurant-1.onrender.com
 
 
 ---
