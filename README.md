@@ -70,7 +70,6 @@ This ID is used to **filter restaurants from the `test_locations.csv` file** tha
 
 ---
 
-## 📂 Project Structure
 
 
 
